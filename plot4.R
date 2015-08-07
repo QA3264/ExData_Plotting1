@@ -47,7 +47,7 @@ grp <- grp[!is.na(grp)]
 png(filename = "plot4.png", width = 480, height = 480)
 
 par(mfrow=c(2,2))
-par(mar = c(4,4,2,2))
+par(mar = c(4,4,4,2))
 
 ## plot the "Global Active Power" data using plot function
 plot(datetime, gap, type="l", xlab ="", ylab = "Global Active Power (kilowatts)" )
